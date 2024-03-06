@@ -63,7 +63,7 @@ const Header = () => {
         `}</style>
          <div
  
-        className="h-26 sm:h-20 px-0  border main flex flex-wrap  sm:justify-between    items-center sm:px-16 bg-gray-100 fixed w-full top-0  headerButton">
+        className="h-26 sm:h-20 px-0 z-50  border main flex flex-wrap  sm:justify-between    items-center sm:px-16 bg-gray-100 fixed w-full top-0  headerButton">
         <div className="flex flex-wrap   gap-0 justify-center items-center px-0">
         <div>
           {/* brand logo */}

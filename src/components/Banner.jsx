@@ -63,7 +63,7 @@ const Banner = () => {
       </div>
 
       {/* Image Column */}
-      <div className=" w-full md:w-1/2 pt-4  flex justify-center md:justify-end items-center">
+      <div className=" w-full md:w-1/2 pt-2  flex justify-center md:justify-end items-center">
         <div className="h-64">
           <img
             className="rounded-full filter shadow-lg brightness-95 contrast-125 w-64 h-64 object-cover"
