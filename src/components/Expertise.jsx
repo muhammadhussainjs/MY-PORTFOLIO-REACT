@@ -32,7 +32,7 @@ const Expertise = () => {
           <div className="flex justify-center">
             {/* skills container */}
 
-            <div className="flex justify-center w-2/3 h-fit space-x-3  flex-wrap">
+            <div className="flex justify-center w-2/3 h-fit space-x-3 flex-wrap text-center">
               <p className="bg-gray-300 w-fit px-3 py-2 mt-1 rounded-full hover:bg-orange-500 cursor-pointer">
                 JAVASCRIPT
               </p>
