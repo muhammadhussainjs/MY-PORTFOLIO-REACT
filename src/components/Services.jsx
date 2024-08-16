@@ -3,6 +3,7 @@ import weather from "../assets/weather-app.png"
 import blogging from "../assets/blogingapp.png"
 import phone from "../assets/phoneapp.png"
 import react from "../assets/react.png"
+import smit from '../assets/smit.png'
 
 
 const Services = () => {
@@ -26,7 +27,15 @@ const Services = () => {
         </h1>
         <div className=" md:space-x-5 md:px-10 gap-12  items-center px-5 
         flex flex-wrap sm:flex-row  mt-12 justify-around" >
-         
+          <div className=" cursor-pointer hover:bg-gray-100 bg-slate-100 p-5 text-center shadow-lg
+           rounded-xl   service1 space-y-4"> 
+        
+          
+            <img src={smit} alt="" className="rounded-xl w-60"/>
+            <button className="px-3 py-2 bg-orange-500 text-2xl rounded-full shadow-lg">
+            <a href=" https://final-hackathon-lf7r.vercel.app/">visit website</a>
+            </button>
+          </div>
           <div className=" cursor-pointer hover:bg-gray-100 bg-slate-100 p-5 text-center shadow-lg
            rounded-xl   service1 space-y-4"> 
         
