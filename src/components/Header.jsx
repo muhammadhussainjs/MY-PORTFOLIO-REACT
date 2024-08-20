@@ -73,7 +73,7 @@ const Header = () => {
         <div className="sm:hidden py-2">
           <a
             href={actionButton.link}
-            className="p-3 bg-orange-500 shadow rounded-full text-1xl "
+            className="p-3 bg-orange-500 shadow  text-1xl "
           >
             {actionButton.title}
           </a>
