@@ -6,11 +6,11 @@ import  Resume from "../assets/Muhammad'sResume.pdf"
 const Header = () => {
   const [brandName, setBrandName] = useState("Muhammad Hussain");
   const [menuLinks, setMenuLinks] = useState([
-    {
-      title: "Homes",
-      link: "#home",
-      id: 1,
-    },
+    // {
+    //   title: "Homes",
+    //   link: "#home",
+    //   id: 1,
+    // },
     {
       title: "About",
       link: "#about",
