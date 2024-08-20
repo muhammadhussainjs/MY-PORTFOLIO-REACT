@@ -18,11 +18,11 @@ const Expertise = () => {
           <div className="flex text-white justify-center">
             {/* text container */}
             <div className="w-2/3 text-center space-y-3">
-              <h1 className="text-4xl font-bold">I love these technologies</h1>
+              <h1 className="text-4xl font-bold" >I love these technologies</h1>
               <p>
               Passionate MERN Stack Developer | Enthusiast for these technologies"
               </p>
-              <p>
+              <p> 
               Crafting digital experiences with precision and passion as a dedicated MERN Stack
                Developer. Driven by a relentless enthusiasm for these transformative technologies,
                I strive to innovate and elevate with every project."

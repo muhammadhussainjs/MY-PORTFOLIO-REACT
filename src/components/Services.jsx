@@ -32,17 +32,23 @@ const Services = () => {
         
           
             <img src={smit} alt="" className="rounded-xl w-60"/>
-            <button className="px-3 py-2 bg-orange-500 text-2xl rounded-full shadow-lg">
+            <button className="p-2  bg-gray-300 hover:bg-gray-400 text-1xl rounded-full shadow-lg">
             <a href=" https://final-hackathon-lf7r.vercel.app/">visit website</a>
+            </button>
+            <button className="ml-4 p-2 bg-gray-300 hover:bg-gray-400 text-1xl rounded-full shadow-lg">
+            <a href="https://github.com/muhammadhussainjs/FINAL-HACKATHON">Github</a>
             </button>
           </div>
           <div className=" cursor-pointer hover:bg-gray-100 bg-slate-100 p-5 text-center shadow-lg
-           rounded-xl   service1 space-y-4"> 
+           rounded-xl    service1 space-y-4"> 
         
           
             <img src={blogging} alt="" className="rounded-xl w-60"/>
-            <button className="px-3 py-2 bg-orange-500 text-2xl rounded-full shadow-lg">
+            <button className=" p-2  bg-gray-300 hover:bg-gray-400 text-1xl rounded-full shadow-lg">
             <a href=" https://muhammadhussainjs.github.io/Blogging-App/">visit website</a>
+            </button>
+            <button className="ml-4 p-2 bg-gray-300 hover:bg-gray-400 text-1xl rounded-full shadow-lg">
+            <a href="https://github.com/muhammadhussainjs/Blogging-App ">Guthub</a>
             </button>
           </div>
           <div className=" cursor-pointer hover:bg-gray-100 bg-slate-100 p-5 text-center shadow-lg
@@ -50,7 +56,7 @@ const Services = () => {
         
           
             <img src={react} alt="" className="rounded-xl w-60"/>
-            <button className="px-3 py-2 bg-orange-500 text-2xl rounded-full shadow-lg">
+            <button className=" p-2 bg-gray-300 hover:bg-gray-400 text-1xl rounded-full shadow-lg">
             <a href="https://ecommerceonreact2.web.app/">visit website</a>
             </button>
           </div>
@@ -59,7 +65,7 @@ const Services = () => {
         
           
             <img src={weather} alt="" className="rounded-xl w-60" />
-            <button className="px-3 py-2 bg-orange-500 text-2xl rounded-full shadow-lg">
+            <button className=" p-2  bg-gray-300 hover:bg-gray-400 text-1xl rounded-full shadow-lg">
             <a href="https://muhammadhussainjs.github.io/WEATHER-APP/">visit website</a>
             </button>
           </div>
@@ -68,7 +74,7 @@ const Services = () => {
         
           
             <img src={phone} alt="" className="rounded-xl w-60" />
-            <button className="px-3 py-2 bg-orange-500 text-2xl rounded-full shadow-lg">
+            <button className=" p-2  bg-gray-300 hover:bg-gray-400 text-1xl rounded-full shadow-lg">
             <a href="https://muhammadhussainjs.github.io/phone-APP/">visit website</a>
             </button>
           </div>
