@@ -33,7 +33,7 @@ const Services = () => {
           
             <img src={smit} alt="" className="rounded-xl w-60"/>
             <button className="p-2  bg-gray-300 hover:bg-gray-400 text-1xl rounded-full shadow-lg">
-            <a href=" https://final-hackathon-lf7r.vercel.app/">visit website</a>
+            <a href=" https://smitclassroom.vercel.app/">visit website</a>
             </button>
             <button className="ml-4 p-2 bg-gray-300 hover:bg-gray-400 text-1xl rounded-full shadow-lg">
             <a href="https://github.com/muhammadhussainjs/FINAL-HACKATHON">Github</a>
