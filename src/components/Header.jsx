@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-import  Resume from "../assets/Muhammad'sResume.pdf"
 
 
 const Header = () => {
@@ -30,10 +29,7 @@ const Header = () => {
   ]);
  
 
-  const [actionButton, setActionButton] = useState({
-    title: "Download CV",
-    link: Resume,
-  });
+  
   const handleClick = (link) => {
     const element = document.querySelector(link);
     element.scrollIntoView({ behavior: "smooth" });
@@ -63,21 +59,14 @@ const Header = () => {
         `}</style>
          <div
  
-        className="h-26 sm:h-20 px-0 z-50  border main flex flex-wrap  sm:justify-between    items-center sm:px-16 bg-gray-100 fixed w-full top-0  headerButton">
+        className="h-26 sm:h-20 pr-8 justify-center z-50  border main flex flex-wrap  sm:justify-between    items-center sm:px-16 bg-gray-100 fixed w-full top-0  headerButton">
         <div className="flex flex-wrap   gap-0 justify-center items-center px-0">
         <div>
           {/* brand logo */}
           <h1 className="text-2xl sm:justify-center font-bold">{brandName}</h1>
         </div>
 
-        <div className="sm:hidden py-2">
-          <a
-            href={actionButton.link}
-            className="p-3 bg-orange-500 shadow rounded-full text-1xl "
-          >
-            {actionButton.title}
-          </a>
-        </div>
+       
 </div>
 
         <div className="flex gap-2 sm:gap-8">
@@ -91,14 +80,6 @@ const Header = () => {
           ))}
         </div>
 
-        <div className="hidden sm:block">
-          <a
-            href={actionButton.link}
-            className="px-4 py-2 bg-orange-500 shadow rounded-full text-1xl "
-          >
-            {actionButton.title}
-          </a>
-        </div>
         
 </div>
        

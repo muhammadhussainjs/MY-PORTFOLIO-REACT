@@ -1,10 +1,15 @@
 import bannerImage from "../assets/profile-pic.png";
 import bannerBackground from "../assets/banner_wallpaper.svg";
 import Typed from "typed.js"
-import { useRef, useEffect } from "react";
+import { useRef, useEffect , useState } from "react";
+import  Resume from "../assets/MUHAMMADHUSSAINRESUME.pdf"
 
 const Banner = () => {
   const el = useRef(null);
+  const [actionButton, setActionButton] = useState({
+    title: "Download CV",
+    link: Resume,
+  });
 
   useEffect(() => {
     const typed = new Typed(el.current, {
@@ -60,6 +65,15 @@ const Banner = () => {
         >
           Contact Me = 03312912721 (WhatsApp)
         </a>
+        <div className=" mt-6">
+          <a
+            href={actionButton.link}
+            className="p-3 bg-orange-500 shadow rounded-full text-1xl "
+          >
+            {actionButton.title}
+          </a>
+        </div>
+
       </div>
 
       {/* Image Column */}
