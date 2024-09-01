@@ -32,6 +32,8 @@ const Services = () => {
         
           
             <img src={smit} alt="" className="rounded-xl w-60"/>
+            <p className="text-xl text-blue-400">SMIT CLASSROOM <br />
+            MERN STACK WEBSITE  </p>
             <button className="p-2  bg-gray-300 hover:bg-gray-400 text-1xl rounded-full shadow-lg">
             <a href=" https://smitclassroom.vercel.app/">visit website</a>
             </button>
@@ -44,6 +46,8 @@ const Services = () => {
         
           
             <img src={blogging} alt="" className="rounded-xl w-60"/>
+            <p className="text-xl text-blue-400">BLOGGING APP 
+              <br /> JAVASCRIPT AND FIREBASE </p>
             <button className=" p-2  bg-gray-300 hover:bg-gray-400 text-1xl rounded-full shadow-lg">
             <a href=" https://muhammadhussainjs.github.io/Blogging-App/">visit website</a>
             </button>
