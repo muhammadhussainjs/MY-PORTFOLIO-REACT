@@ -2,7 +2,7 @@ import bannerImage from "../assets/profile-pic.png";
 import bannerBackground from "../assets/banner_wallpaper.svg";
 import Typed from "typed.js"
 import { useRef, useEffect , useState } from "react";
-import  Resume from "../assets/MUHAMMADHUSSAINRESUME.pdf"
+import  Resume from "../assets/MuhammadHussainResume.pdf"
 
 const Banner = () => {
   const el = useRef(null);
