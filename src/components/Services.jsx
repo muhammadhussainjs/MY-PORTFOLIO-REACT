@@ -4,6 +4,7 @@ import blogging from "../assets/blogingapp.png"
 import phone from "../assets/phoneapp.png"
 import react from "../assets/react.png"
 import smit from '../assets/smit.png'
+import careem from '../assets/careem.png'
 
 
 const Services = () => {
@@ -43,6 +44,22 @@ const Services = () => {
           </div>
           <div className=" cursor-pointer hover:bg-gray-100 bg-slate-100 p-5 text-center shadow-lg
            rounded-xl    service1 space-y-4"> 
+
+
+
+
+<img src={careem} alt="" className="rounded-xl w-60 h-28 "/>
+            <p className="text-xl text-blue-400">CAREEM APP<br />
+            REACT NATIVE </p>
+            <button className="p-2  bg-gray-300 hover:bg-gray-400 text-1xl rounded-full shadow-lg">
+            <a href="https://drive.google.com/file/d/1Umc3N0V0AKr5iEm8n_EHbstFifRXsycj/view?usp=drivesdk">Play video</a>
+            </button>
+            <button className="ml-4 p-2 bg-gray-300 hover:bg-gray-400 text-1xl rounded-full shadow-lg">
+            <a href="https://github.com/muhammadhussainjs/REACT-NATIVE-CAREEM-APP">Github</a>
+            </button>
+          </div>
+          <div className=" cursor-pointer hover:bg-gray-100 bg-slate-100 p-5 text-center shadow-lg
+           rounded-xl    service1 space-y-4"> 
         
           
             <img src={blogging} alt="" className="rounded-xl w-60"/>
@@ -52,7 +69,7 @@ const Services = () => {
             <a href=" https://muhammadhussainjs.github.io/Blogging-App/">visit website</a>
             </button>
             <button className="ml-4 p-2 bg-gray-300 hover:bg-gray-400 text-1xl rounded-full shadow-lg">
-            <a href="https://github.com/muhammadhussainjs/Blogging-App ">Guthub</a>
+            <a href="https://github.com/muhammadhussainjs/Blogging-App ">Github</a>
             </button>
           </div>
           <div className=" cursor-pointer hover:bg-gray-100 bg-slate-100 p-5 text-center shadow-lg
